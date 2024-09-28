@@ -13,6 +13,8 @@
 
 [6. Выводы](https://github.com/Katalina-Ross/SF_180_kozlova/blob/main/project%200/README_0_v1.md#%D0%BC%D0%BE%D0%B8-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B8)
 
+[7. Мои комментарии](https://github.com/Katalina-Ross/SF_180_kozlova/blob/main/project%200/README_0_v1.md#%D0%BC%D0%BE%D0%B8-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B8)
+
 ### Описание проекта
 
 Необходимо написать программу, которая загадывает число, сама его отгадывает и считает количество попыток отгадывания.
