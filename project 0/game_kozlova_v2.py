@@ -17,238 +17,206 @@ def random_predict (number: int = 1) -> int:
     """
     
     count = 0
-    predict_number = 50
+    predict_number = 50 # начальное значение
     
     if number == predict_number:
-        #print ('Загадано =', number, "Отгадано =", predict_number)
         return count    
     elif number > predict_number:
         
-        count +=1
-        predict_number +=25
+        count += 1
+        predict_number += 25  # 50+25
                         
         if number == predict_number:
-            #print ('Загадано =', number, "Отгадано =", predict_number)
             return count
         elif number > predict_number:
-            count +=1
-            predict_number +=12
+            count += 1
+            predict_number += 12 # 75+12
                         
             if number == predict_number:
-                #print ('Загадано =', number, "Отгадано =", predict_number)
                 return count
             elif number > predict_number:
-                count +=1
-                predict_number +=6
+                count += 1
+                predict_number += 6 # 87+6
                                 
                 if number == predict_number:
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
                     return count
                 elif number > predict_number:
                     
                     while not (number == predict_number):
-                        count +=1
-                        predict_number +=1
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
+                        count += 1
+                        predict_number += 1 # 93+1+1+1+1+1+1+1
                     return count
                 
                 else:
                     
                     while not (number == predict_number):
-                        count +=1
-                        predict_number -=1
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
+                        count += 1
+                        predict_number -= 1 # 93-1-1-1-1-1-1
                     return count
                           
             else:
-                count +=1
-                predict_number -=6
+                count += 1
+                predict_number -= 6 # 87-6
                 
                 if number == predict_number:
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
                     return count
                 elif number > predict_number:
                     
                     while not (number == predict_number):
-                        count +=1
-                        predict_number +=1
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
+                        count += 1
+                        predict_number += 1 # 81+1+1+1+1+1
                     return count
                 
                 else:
                     
                     while not (number == predict_number):
-                        count +=1
-                        predict_number -=1
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
+                        count += 1
+                        predict_number -= 1 # 81-1-1-1-1-1
                     return count              
                   
         else:
-            count +=1
-            predict_number -=12
+            count += 1
+            predict_number -= 12 # 75-12
             
             if number == predict_number:
-                #print ('Загадано =', number, "Отгадано =", predict_number)
                 return count
             elif number > predict_number:
-                count +=1
-                predict_number +=6
+                count += 1
+                predict_number += 6 # 63+6
                 
                 if number == predict_number:
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
                     return count
                 elif number > predict_number:
                     
                     while not (number == predict_number):
-                        count +=1
-                        predict_number +=1
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
+                        count += 1
+                        predict_number += 1 # 69+1+1+1+1+1
                     return count
                 
                 else:
                     
                     while not (number == predict_number):
-                        count +=1
-                        predict_number -=1
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
+                        count += 1
+                        predict_number -= 1 # 69-1-1-1-1-1
                     return count
                 
             else:
-                count +=1
-                predict_number -=6
+                count += 1
+                predict_number -= 6 # 63-6
                 
                 if number == predict_number:
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
                     return count
                 elif number > predict_number:
                     
                     while not (number == predict_number):
-                        count +=1
-                        predict_number +=1
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
+                        count += 1
+                        predict_number += 1 # 57+1+1+1+1+1
                     return count
                 
                 else:
                     
                     while not (number == predict_number):
-                        count +=1
-                        predict_number -=1
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
+                        count += 1
+                        predict_number -= 1 # 57-1-1-1-1-1
                     return count
-    
                       
     else:
-        count +=1
-        predict_number -=25
+        count += 1
+        predict_number -= 25 # 50-25
         
         if number == predict_number:
-            #print ('Загадано =', number, "Отгадано =", predict_number)
             return count
         elif number > predict_number:
-            count +=1
-            predict_number +=12
+            count += 1
+            predict_number += 12 # 25+12
             
             if number == predict_number:
-                #print ('Загадано =', number, "Отгадано =", predict_number)
                 return count
             elif number > predict_number:
-                count +=1
-                predict_number +=6
+                count += 1
+                predict_number += 6 # 37+6
                 
                 if number == predict_number:
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
                     return count
                 elif number > predict_number:
                     
                     while not (number == predict_number):
-                        count +=1
-                        predict_number +=1
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
+                        count += 1
+                        predict_number += 1 # 43+1+1+1+1+1
                     return count
                 
                 else:
                     
                     while not (number == predict_number):
-                        count +=1
-                        predict_number -=1
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
+                        count += 1
+                        predict_number -= 1 # 43-1-1-1-1-1
                     return count
                 
             else:
-                count +=1
-                predict_number -=6
+                count += 1
+                predict_number -= 6 # 37-6
                  
                 
                 if number == predict_number:
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
                     return count
                 elif number > predict_number:
                     
                     while not (number == predict_number):
-                        count +=1
-                        predict_number +=1
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
+                        count += 1
+                        predict_number += 1 # 31+1+1+1+1+1
                     return count
                 
                 else:
                     
                     while not (number == predict_number):
-                        count +=1
-                        predict_number -=1
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
+                        count += 1
+                        predict_number -= 1 # 31-1-1-1-1-1
                     return count
                     
         else:
-            count +=1
-            predict_number -=12
+            count += 1
+            predict_number -= 12 # 25-12
             
             if number == predict_number:
-                #print ('Загадано =', number, "Отгадано =", predict_number)
                 return count
             elif number > predict_number:
-                count +=1
-                predict_number +=6
+                count += 1
+                predict_number += 6 # 13+6
                 
                 if number == predict_number:
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
                     return count
                 elif number > predict_number:
                     
                     while not (number == predict_number):
-                        count +=1
-                        predict_number +=1
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
+                        count += 1
+                        predict_number += 1 # 19+1+1+1+1+1
                     return count
                 
                 else:
                     
                     while not (number == predict_number):
-                        count +=1
-                        predict_number -=1
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
+                        count += 1
+                        predict_number -= 1 # 19-1-1-1-1-1
                     return count
                 
             else:
-                count +=1
-                predict_number -=6
+                count += 1
+                predict_number -= 6 # 13-6
                  
                 if number == predict_number:
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
                     return count
                 elif number > predict_number:
                     
                     while not (number == predict_number):
-                        count +=1
-                        predict_number +=1
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
+                        count += 1
+                        predict_number += 1 # 7+1+1+1+1+1
                     return count
                 
                 else:
                     
                     while not (number == predict_number):
-                        count +=1
-                        predict_number -=1
-                    #print ('Загадано =', number, "Отгадано =", predict_number)
+                        count += 1
+                        predict_number -= 1 # 7-1-1-1-1-1-1
                     return count
 
 
