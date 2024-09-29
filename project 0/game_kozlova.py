@@ -3,8 +3,7 @@ import numpy as np
 number = np.random.randint(1, 101) # загадываем число
 print ('number =', number)
 
-# количество попыток
-
+# Перебор по интервалам. Каждый в 2 раза меньше предыдущего
     
 def random_predict (number):
     predict_number = 50
